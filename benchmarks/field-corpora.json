@@ -1,0 +1,17 @@
+{
+  "ne-roads": {
+    "id": "ne-roads",
+    "shape": "object",
+    "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_10m_roads.geojson",
+    "repo": "github.com/nvkelso/natural-earth-vector",
+    "commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+    "license": "Natural Earth public domain (README statement; GitHub API says NOASSERTION)",
+    "note": "GeoJSON FeatureCollection, 56600 LineString features (deep coordinate arrays), root = object",
+    "file": "roads.geojson",
+    "bytes": 50474096,
+    "sha256": "66a0c7b438e92fd124822cc5921cfa11042f48c294ade5e0f03f2c6640fd0248",
+    "query_jq": ".features[]|select(.properties.type==\"Major Highway\")|.properties.sov_a3",
+    "expected_count": 9752,
+    "n_elements": 56600
+  }
+}

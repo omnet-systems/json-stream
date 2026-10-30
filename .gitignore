@@ -1,0 +1,9 @@
+/.work/
+/target/
+/dist/
+/REFERENCE*
+/reference*
+/PRIVACY-MARKERS.txt
+/WORKER-*
+__pycache__/
+*.pyc
